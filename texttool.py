@@ -3,6 +3,12 @@
 
 
 def process_line(line):
+    """
+    Ça analyse une ligne de commande et ça applique la transformation demandée.
+    line est une chaîne contenant "commande texte"
+    Ça retourne le résultat de la commande, ou un message d’erreur.
+    """
+      
     if " " not in line:
         return "No command or no argument given"
 
