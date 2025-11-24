@@ -13,6 +13,8 @@ def process_line(line):
 
     if cmd == "lowercase":
         return text.lower()
+    if cmd == "length":
+        return str(len(text))
 
     if cmd == "count-words":
         return str(len(text.split()))
